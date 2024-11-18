@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Canteen Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="background-slider">
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+    <div id="torch"></div>
+    <div id="background"></div>
+    <div id="floating-emojis"></div>
+    <div class="container">
+        <h1 id="login-title">Login</h1>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit" class="button">Login</button>
+        </form>
+        <p id="login-error" class="error"></p>
+        <a href="index.html" class="button button-outline">Back to Home</a>
+    </div>
+    <script src="login.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>
